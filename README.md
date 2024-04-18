@@ -1,4 +1,4 @@
-[<h1 align="center">🎸  Instrulicious 🎹</h1>
+<h1 align="center">🎸 Instrulicious 🎹</h1>
 
 <p>Instrulicious is an e-commerce platform that offers musical instrument products.</p>
 
