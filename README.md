@@ -25,11 +25,11 @@
 <h3 align="center">Web Application Design 💻</h3>
 
 <div style="display:flex;">
-  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru1.png" width="500">
-  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru2.png" width="500">
-  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru3.png" width="500">
-  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru4.png" width="500">
-  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru5.png" width="500">
+  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru1.png" width="300">
+  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru2.png" width="300">
+  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru3.png" width="300">
+  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru4.png" width="300">
+  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru5.png" width="300">
 </div>
 
 <h2 align="center">👨‍💻 Contributor</h2>
