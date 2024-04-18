@@ -25,7 +25,7 @@
 <h3>App Design 📱</h3>
 
 <div style="display:flex;">
-  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru1.png" width="200">
+  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru1.png" width="500">
 </div>
 
 <h2 align="center">👨‍💻 Contributor</h2>
