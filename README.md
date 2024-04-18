@@ -22,7 +22,7 @@
   <li>Clone the respository of this project to the correct path</li>
 </ul>
 
-<h3 align="center">App Design 📱</h3>
+<h3 align="center">Web Application Design 💻</h3>
 
 <div style="display:flex;">
   <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru1.png" width="500">
