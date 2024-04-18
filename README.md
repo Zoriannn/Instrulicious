@@ -4,7 +4,7 @@
 
 <h2 align="center">🚀 Usage</h2>
 
-<p>To use Instrulicious, start WampServer and make sure that the project folder is placed under the directory of <code>C:\wamp64\www\</code>. Before startng te web application, do import the database named <code>data.sql</code> under the assets folder through the link <code>http://localhost/phpmyadmin/</code></p>.
+<p>To use Instrulicious, start WampServer and make sure that the project folder is placed under the directory of <code>C:\wamp64\www\</code>. Before startng te web application, do import the database named <code>data.sql</code> under the assets folder through the link <code>http://localhost/phpmyadmin/</code></p>
 
 <h2 align="center">✨ Features</h2>
 
@@ -25,7 +25,7 @@
 <h3>App Design 📱</h3>
 
 <div style="display:flex;">
-  <img src="https://drive.google.com/file/d/1sgLf3wmdR-hHYKeXldEZHtBZvkraROsu/view?usp=sharing" width="200">
+  <img src="https://github.com/Zoriannn/Instrulicious/blob/main/instru1.png" width="200">
 </div>
 
 <h2 align="center">👨‍💻 Contributor</h2>
