@@ -1,0 +1,629 @@
+body {
+    margin: 0;
+    font-family: 'Caudex', Helvetica, sans-serif;
+    background-color: #FFFAFA;
+}
+
+/*for the nav bar*/
+.topnav {
+    overflow: hidden;
+    background-color: #fff3dd;
+    text-align: center;
+
+}
+
+.topnav a {
+    display: inline-block;
+    color: #4056A1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #c5cbe3;
+    color: black;
+    text-decoration: none; /* Add this line */
+}
+
+
+
+.head {
+    font-size: 40px;
+    text-align: center;
+    background-color: #fff3dd;
+    padding: 1px;
+    color: #4056A1;
+    max-width: 0 auto; 
+    margin: 0 auto; 
+}
+
+.loginPage, .registerPage, .registerSuccess, .loginMenu{
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    border: 2px solid #ddd; 
+    text-align: center;
+}
+
+.loginPage h1, .registerPage h1, .registerSuccess h1, .loginMenu h1{
+    font-family: 'Caudex', Helvetica, sans-serif;
+    font-size: 24px;
+    color: #333; 
+    margin-bottom: 20px;
+   
+}
+
+.loginPage button, .registerPage button, .registerSuccess button, .loginMenu button{
+    font-family: 'Caudex', Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-right: 10px; 
+    border: none;
+    cursor: pointer;
+    background-color: #fff3dd;
+    color: #000000; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.loginPage button:hover, .registerPage button:hover, .registerSuccess button:hover, .loginMenu button:hover{
+    background-color: #c5cbe3;
+    color: black;
+}
+
+
+.loginPage input, .registerPage input {
+    border-style:none;
+    border-radius:15px;
+    background-color:#eee;
+    width:80%;
+    margin-top:5%;
+    height:40px;
+    padding-left: 5%;
+    font-size:15px;
+}
+
+.registerPage label, .loginPage label {
+    text-align: center; 
+    font-size:15px;
+}
+
+.agree {
+    display: flex; 
+    align-items: center; 
+}
+
+.agree input[type="checkbox"] {
+   
+    width:30px;
+    height:30px;
+    margin-right: 5px; 
+}
+
+.error-message {
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.header { 
+    display: flex;
+    align-items: center;
+    width: 500px; 
+    min-height: 50px; 
+    height: auto;
+    margin-left: 25%;
+    position: relative;
+}
+
+.header h1 {
+    color: #4D3221;
+    font-size: 50px;
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+/*for the carousel*/
+.container-slider{
+    padding:2rem;
+}
+
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9 ;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(9, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+}
+
+
+
+
+/*this is for the cards after the carousel*/
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+  
+.row {
+    margin: 0 -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.card h2{
+    color: #4056A1;
+}
+
+/*this is the footer part*/
+.footer{
+    margin: 0; padding: 0;
+    border: 0; outline: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --theme-col: #fff3dd;
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+footer{
+    background-color: #231e18;
+}
+.f-item-con{
+    padding: 1.5rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 2rem;
+}
+footer .app-name{
+    color: white;
+    border-left: 4px solid var(--theme-col);
+    padding-left: 1.5rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+.app-name .app-initial{
+    color: var(--theme-col);
+}
+footer .app-info p{
+    color: white;
+    padding-left: 1.65rem;
+}
+
+footer .footer-title{ 
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: white;
+    border-left: 4px solid var(--theme-col);
+    padding-left: 1.5rem;
+    height: fit-content;
+}
+footer ul{ 
+    padding-left: 1.75rem;
+    color: white;
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem;
+    margin-top: .5rem;
+}
+footer ul li{ 
+    margin: .25rem 0;
+    cursor: pointer;
+    color: #fff3dd;
+    width: fit-content;
+}
+footer ul li:hover{
+    color: white;
+}
+footer .help-sec{
+    grid-column-start: 2;
+}
+footer .cr-con{
+    background-color: #231e18;
+    color: white;
+    padding: 1rem 4rem;
+    text-align: center;
+}
+.g-i-t{
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.g-i-t form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+form .g-inp{
+    padding: .25rem .5rem;
+    font-size: 16px;
+}
+.g-inp textarea{
+    height: 150px;
+}
+.f-btn{
+    padding: .25rem 1rem;
+    background-color: var(--theme-col);
+    border-radius: .25rem;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+/* for sidebar of product.php (product listing) page */
+.sidebar {
+    position: fixed;
+    top: 182px; 
+    left: 0;
+    width: 220px;
+    height: 100%; 
+    background-color: #FFFAFA;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.sidebar-link {
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.sidebar-link a {
+    text-decoration: none;
+    color: #252525;
+}
+
+.sidebar-link:hover {
+    background-color: #bdc8ec;
+    border-radius: 12px;
+}
+
+.sidebar .sidebar-link {
+    margin-bottom: 27px;
+}
+
+main {
+    margin-left: 220px;
+    background-color: #FFFAFA;
+    padding: 20px;
+}
+
+/* for product.php (product listing) page */
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 40px;
+    padding: 5px;
+}
+
+.product-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFF0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #252525;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-row {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.product-link {
+    text-decoration: none;
+    color: black;
+}
+
+.thumbnail {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.product-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color:#4056A1;
+    margin-bottom: 10px;
+}
+
+.product-info {
+    margin-bottom: 50px;
+}
+
+.add-to-cart-button, .buy-now-button, .updateButton {
+    font-family: 'Caudex', Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.add-to-cart-button:hover, .updateButton:hover {
+    background-color: #4056A1;
+    color: #FFFFF0;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.add-to-cart-button {
+    background-color: #252525;
+    color: #FFFFF0;
+    border: none;
+    height: 40px;
+}
+
+.updateButton {
+    margin-top: 10px;
+    background-color: #252525;
+    color: #FFFFF0;
+    border: none;
+    width: 90px;
+    height: 40px;
+}
+
+.number-of-results {
+    margin-left: 20px;
+}
+
+.product-type {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #252525;
+    font-weight: bold;
+    margin-left: 28px;
+    text-decoration: underline;
+}
+
+.operations {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+}
+
+/* for addCart.php (add to cart) page */
+
+.icons-container {
+    position: fixed;
+    top: 200px;
+    right: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-cart {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon-cart svg {
+    width: 23%;
+    margin-right: -100px; 
+}
+
+.container-cart {
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#cart-container {
+    margin-bottom: 50px;
+}
+
+#cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#cart-table th,
+#cart-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#cart-table th {
+    background-color: #4a4a4a;
+    color: #fff;
+    font-weight: normal;
+}
+
+#cart-table .item-price,
+#cart-table .item-total {
+    text-align: right;
+}
+
+#cart-table .item-quantity {
+    width: 50px;
+}
+
+#cart-table .remove-item-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#cart-table .remove-item-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.total-row {
+    font-weight: bold;
+}
+
+#checkout-section {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4a4a4a;
+}
+
+.form-group {
+    padding-left: 25%;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+button.checkout-btn {
+    width: 100%;
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.checkout-btn:hover {
+    background-color: #333;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#Paymentsuccess-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 300px;
+    margin-top: 300px;
+}
+
+#Paymentsuccess-message h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+    font-size: 50px;
+}
+
+#Paymentsuccess-message h3 {
+    text-align: center;;
+    font-size: 20px; 
+}
