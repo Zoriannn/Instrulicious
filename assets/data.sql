@@ -12,10 +12,10 @@ CREATE TABLE user(
 );
 
 INSERT INTO user(user_name, email, password, phone) VALUES 
-('Hui Le Yun', 'huileyun0320@1utar.my', 'leyun0320','01139851577'),
-('Choo Jia Zheng', 'jzchoo04@1utar.my', 'jzchoo12', '0195772127'),
-('Loke Weng Yan', 'wengyan@1utar.my', 'lwy999', '0128136887'),
-('Tin Hui Hui', 'huihui@1utar.my', 'hui0000', '0106621222');
+('Hui Le Yun', 'huileyun0320@1utar.my', 'leyun0320','0123456789'),
+('Choo Jia Zheng', 'jzchoo04@1utar.my', 'jzchoo12', '0102030405'),
+('Loke Weng Yan', 'wengyan@1utar.my', 'lwy999', '0192837465'),
+('Tin Hui Hui', 'huihui@1utar.my', 'hui0000', '0129384756');
 
 
 CREATE TABLE products (
